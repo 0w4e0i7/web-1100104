@@ -41,6 +41,23 @@ nav {
     border: 5px #226641;
 }
 
+/* 最新商品 */
+#banner > div{
+    /* 高度:100vh 螢幕高度 */
+    height: 100vh;
+}
+
+div#banner >div:nth-child(1){
+    background-image: url(./img/banner1.jpg);
+}
+
+div#banner >div:nth-child(2){
+    background-image: url(./img/banner2.jpg);
+}
+
+div#banner >div:nth-child(3){
+    background-image: url(./img/banner3.jpg);
+}
 /* 商品類型 */
 
 #products {
