@@ -47,15 +47,15 @@ nav {
     height: 100vh;
 }
 
-div#banner >div:nth-child(1){
+.banner1{
     background-image: url(./img/banner1.jpg);
 }
 
-div#banner >div:nth-child(2){
+.banner2{
     background-image: url(./img/banner2.jpg);
 }
 
-div#banner >div:nth-child(3){
+.banner3{
     background-image: url(./img/banner3.jpg);
 }
 /* 商品類型 */
