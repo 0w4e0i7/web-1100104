@@ -42,24 +42,68 @@ nav {
 }
 
 /* 最新商品 */
-#banner > div{
-    /* 高度:100vh 螢幕高度 */
+/* 元素1 元素2 - 在元素1 內 所有的 元素 2 */
+#banner div {
+    /* 高度：100 vh 螢幕高度 */
     height: 100vh;
 }
 
-.banner1{
+.banner1 {
     background-image: url(./img/banner1.jpg);
 }
 
-.banner2{
+.banner2 {
     background-image: url(./img/banner2.jpg);
 }
 
-.banner3{
+.banner3 {
     background-image: url(./img/banner3.jpg);
 }
-/* 商品類型 */
 
+#banner {
+    text-align: center;
+    color: #fff;
+}
+
+#banner h1 {
+    padding: 30px;
+    margin-top: 200px;
+    font-size: 120px;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+#banner p {
+    padding: 30px;
+    font-size: 32px;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+#banner hr {
+    width: 80%;
+    margin: 0 auto;
+    height: 5px;
+    background: #fff;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#banner .slick-prev {
+    left: 50px;
+    z-index: 2;
+    transform: scale(1.5);
+}
+
+#banner .slick-next {
+    right: 50px;
+    z-index: 2;
+    transform: scale(1.5);
+}
+
+#banner .slick-dots {
+    bottom: 25px;
+}
+
+/* 商品類型 */
 #products {
     width: 1280px;
     margin: 0 auto;
@@ -70,6 +114,7 @@ nav {
 #products > div {
     display: grid;
     grid-template-columns: 40% 60%;
+    margin-top: 20px;
 }
 
 #products .pic img {
@@ -89,7 +134,7 @@ nav {
 #products .text p {
     width: 300px;
     line-height: 2;
-    padding: 10px 0;
+    padding: 10px 0 20px;
 }
 
 #products > div:nth-child(2) {
@@ -154,4 +199,54 @@ nav {
 #info .text p{
     padding: 10px 0 25px;
     line-height: 2;
+}
+
+/* 頁尾 */
+footer {
+    background: #f6f6f6;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+#footer-social a {
+    padding: 0 20px;
+}
+
+#starbucks {
+    padding: 30px 0 20px;
+}
+
+#starbucks img {
+    transition: 0.5s;
+}
+
+#starbucks img:hover {
+    transform: scale(1.2);
+}
+
+#footer-link {
+    padding: 20px 0;
+}
+
+#footer-link a {
+    color: #226641;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+#footer-link a:hover {
+    color: #999;
+}
+
+#contact {
+    color: #999;
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+#copy {
+    color: #999;
+    font-size: 8px;
 }
